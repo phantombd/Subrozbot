@@ -1,11 +1,11 @@
 """Available Commands:
-.bigoof
-Credits to @T3b0N3
+.uff
+Credits to @Karmaboii
 
    Ultroid
 """
 
-# Main Credits Goes to @T3b0N3
+# Main Credits Goes to @Karmaboii
 # He Worked Very Hard to do this, So Please Respect Him!!
 from telethon import events
 
@@ -13,7 +13,7 @@ import asyncio
 
 from userbot.utils import admin_cmd
 
-@borg.on(admin_cmd("bigoof"))
+@borg.on(admin_cmd("uff"))
 async def _(event):
     if event.fwd_from:
         return
