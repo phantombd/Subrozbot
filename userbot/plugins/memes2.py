@@ -132,16 +132,6 @@ async def lel(e):
                      "`\n╱┃┗━━┓┃╰━╯┃┃┗━━┓╱ `" 
                      "`\n╱┗━━━┛╰━━━╯┗━━━┛╱ `") 
         
-
-@register(outgoing=True, pattern="^.uff$")
-async def uff(e):
-    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`\n╭━━━╮╱╱╱╱╱╱╱╱╱╭━╮`" 
-                     "`\n┃╭━╮┃╱╱╱╱╱╱╱╱╱┃╭╯`" 
-                     "`\n┃┃╱┃┣━━┳━━┳━━┳╯╰╮`" 
-                     "`\n┃┃╱┃┃╭╮┃╭╮┃╭╮┣╮╭╯`" 
-                     "`\n┃╰━╯┃╰╯┃╰╯┃╰╯┃┃┃ `"
-                     "`\n╰━━━┻━━┻━━┻━━╯╰╯`") 
         
         
 @register(outgoing=True, pattern="^.wdf$")
