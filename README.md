@@ -29,7 +29,7 @@ An example `local_config.py` file could be:
 ## By KarmaBot
 
 For any query or want to know how it works contact 👇👇
-### <a href="@KarmaBoii"><img src="https://telegra.ph/file/8ef5ff8acca6c6e4c7dd7.jpg?logo=Telegram"></a>
+### <a href="https://t.me/Karmaboii"><img src="https://telegra.ph/file/8ef5ff8acca6c6e4c7dd7.jpg?logo=Telegram"></a>
 
 
 
