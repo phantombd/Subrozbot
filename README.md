@@ -1,4 +1,4 @@
-# 🤖 𝗞𝗔𝗥𝗠𝗔 𝗕𝗢𝗧 🤖
+#  𝗞𝗔𝗥𝗠𝗔 𝗕𝗢𝗧 
 
 <p align="center">
 <img src="logo.jpg" alt="KarmaBot">
