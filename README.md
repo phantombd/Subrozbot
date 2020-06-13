@@ -1,7 +1,7 @@
 # 🤖 🅺🅰🆁🅼🅰  🅱🅾🆃 🤖
 
 <p align="center">
-<img src="https://sites.create-cdn.net/siteimages/65/8/5/658502/18/3/8/18380057/800x800.jpg" alt="KarmaBot">
+<img src="logo.jpg" alt="KarmaBot">
 
 Best User Bot To Manage Your Telegram Account 😉               
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Karma-goku/KarmaBot)
