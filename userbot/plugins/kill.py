@@ -41,7 +41,7 @@ async def _(event):
             "------------------⚫",    
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
-            "**Target Killed Successfully\n{DEFAULTUSER} Ne Maar Daala Tujhe Bkl Hehe\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
+            "**Target Killed Successfully\n(DEFAULTUSER) Ne Maar Daala Tujhe Bkl Hehe\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
         ]
 
         for i in animation_ttl:
