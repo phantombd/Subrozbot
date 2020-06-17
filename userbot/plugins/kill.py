@@ -3,7 +3,6 @@ Available Commands:
 .kill"""
 
 from telethon import events
-from userbot import ALIVE_NAME
 
 
 import asyncio
@@ -11,7 +10,6 @@ from uniborg.util import admin_cmd
 from telethon.tl.functions.users import GetFullUserRequest
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『𝙆𝘼𝙍𝙈𝘼』"
 
 @borg.on(admin_cmd(pattern=r"kill"))
 
@@ -52,7 +50,7 @@ async def _(event):
             "------------------⚫",    
             "------⚫(^。^)ノ",
             "(￣ー￣) DED",
-            f"**Target Killed Successfully\n{DEFAULTUSER} Ne Maar Daala Tujhe Bkl Hehe\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
+            "**Target Killed Successfully\n[『𝙆𝘼𝙍𝙈𝘼』](@KarmaBoii) Ne Maar Daala Tujhe Bkl Hehe...\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
         ]
 
             for i in animation_ttl:
