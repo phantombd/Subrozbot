@@ -1,11 +1,12 @@
 """COMMAND : .kill"""
 
 from telethon import events
+from userbot import ALIVE_NAME
 
 import asyncio
 
 
-
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『𝙆𝘼𝙍𝙈𝘼』"
 
 
 @borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -40,7 +41,7 @@ async def _(event):
             "------------------⚫",    
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
-            "**Target Killed Successfully\n(Maar Daala Tujhe Bkl Hehe)\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
+            "**Target Killed Successfully\n{DEFAULTUSER} Ne Maar Daala Tujhe Bkl Hehe\n(⌐■_■)–︻╦╤─- - - - - - (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
         ]
 
         for i in animation_ttl:
