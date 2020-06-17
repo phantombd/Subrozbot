@@ -60,5 +60,3 @@ async def _(event):
                 await asyncio.sleep(animation_interval)
 
                 await event.edit(animation_chars[i % 11])
-    else:
-        await event.edit("No User Is Defined\nReply To A User."
