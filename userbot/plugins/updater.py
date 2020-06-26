@@ -15,7 +15,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Karma-goku/KarmaBot/"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Karma-goku/KarmaBot"
 BOT_IS_UP_TO_DATE = "the userbot is up-to-date."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
@@ -72,8 +72,8 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("Updating...")
-        await asyncio.sleep(8)
+        await message.edit("▄︻̷̿┻̿═━一")
+        await asyncio.sleep(1)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
         branch_name=active_branch_name,
@@ -140,10 +140,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("restarted! do `.alive` to check if I am online?\nIt will takes approximately 5 mins to update your userbot")
+    await message.edit("restarted! do `.ping` to check if I am online?\nIt will takes approximately 5 mins to update your userbot")
     await remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
-
-    
-
