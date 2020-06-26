@@ -15,4 +15,4 @@ async def amireallyalive(alive):
                       "**Apun Jinda Hai Sur, Hukum Kro Mere Aaka ! ! !\n\nTelethon version:- 6.9.0**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**Python: 3.7.3**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                     f"`My Peru Owner`: {DEFAULTUSER}\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                      "**Database Status: Databases functioning normally!**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n\n**Always With You, My Peru Master ! ! !**\n\n"
-                    "**BOT CREATOR:- [『𝙆𝘼𝙍𝙈𝘼』](@KarmaBoii)**")
+                    "**BOT CREATOR:-** [『𝙆𝘼𝙍𝙈𝘼』](@KarmaBoii)")
