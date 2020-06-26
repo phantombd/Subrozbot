@@ -861,6 +861,11 @@ async def vapor(vpr):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("**Ask  From  Creator  Of  This  Bot,  Cozz  This  iz  For  Peru  Users  Only** [『𝙆𝘼𝙍𝙈𝘼』](@Karmaboii)")
+
+@register(outgoing=True, pattern="^.string$")
+async def source(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("[𝐌𝐀𝐊𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍](https://Karmaboii.karmabot.repl.run)")
 			  
 			  
 @register(outgoing=True, pattern="^.str(?: |$)(.*)")
