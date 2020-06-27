@@ -865,7 +865,7 @@ async def source(e):
 @register(outgoing=True, pattern="^.string$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("[𝐌𝐀𝐊𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍](https://Karmaboii.karmabot.repl.run)")
+        await e.edit("[𝐌𝐀𝐊𝐄 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍](https://userbot.subro.repl.run)")
 			  
 			  
 @register(outgoing=True, pattern="^.str(?: |$)(.*)")
