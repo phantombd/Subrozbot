@@ -1,7 +1,7 @@
 """
 Memes Plugin for Userbot
 usage = .meme someCharacter //default delay will be 3
-By : - @Karmaboii
+By : - @Subroz
 
 """
 from telethon import events
