@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [KarmaBot](@Subroz)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [Subroz](@Subroz)>> ",
 
          force_document=True,
 
@@ -160,7 +160,7 @@ async def carbon_api(e):
 
          )
 
-   os.remove('./KarmaBot.png')
+   os.remove('./Subroz.png')
 
    driver.quit()
 
