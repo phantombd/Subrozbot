@@ -8,7 +8,7 @@ from uniborg.util import admin_cmd
 from userbot import ALIVE_NAME
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『𝙆𝘼𝙍𝙈𝘼』"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "『Subroz』"
 
 @borg.on(admin_cmd(pattern=r"police"))
 
