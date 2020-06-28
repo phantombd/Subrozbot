@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [KarmaBot](@KarmaBoii)>> ",
+         caption="<< Here's your carbon, \n Carbonised by [KarmaBot](@Subroz)>> ",
 
          force_document=True,
 
