@@ -860,7 +860,7 @@ async def vapor(vpr):
 @register(outgoing=True, pattern="^.repo$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit(This Userbot Is Created By @Subroz [Click Here] (https://github.com/subroz/subrozbot) to Open this Repo.)
+        await e.edit("This Userbot Is Created By @Subroz ")
 @register(outgoing=True, pattern="^.string$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
