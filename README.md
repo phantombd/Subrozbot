@@ -1,21 +1,21 @@
-#  𝗞𝗔𝗥𝗠𝗔 𝗕𝗢𝗧 
+#  Subroz Bot 
 
 <p align="center">
-<img src="logo.jpg" alt="KarmaBot">
+<img src="logo.jpg" alt="Subrozbot">
 
 Best User Bot To Manage Your Telegram Account 😉               
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Karma-goku/KarmaBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Subroz/Subrozbot)
 
 ## GET STRING SESSION FROM REPL RUN 
 
-[![Repl.it](https://img.shields.io/badge/REPL%20RUN-Run%20Online-blue.svg)](https://Karmaboii.karmabot.repl.run)
+[![Repl.it](https://img.shields.io/badge/REPL%20RUN-Run%20Online-blue.svg)](https://userbot.subro.repl.run)
 ...With The Help Of This U can Skip Termux Part And Make String Sessions Easily
 
 ### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/Karma-goku/KarmaBot
+git clone https://github.com/Subroz/Subrozbot
 cd Karmabot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
@@ -30,10 +30,10 @@ An example `local_config.py` file could be:
 
 ## Most PowerFul And Better And Secure !
 
-## By KarmaBot
+## By Subrozbot
 
 For any query or want to know how it works contact 👇👇
-### <a href="https://t.me/Karmaboii"><img src="https://telegra.ph/file/8ef5ff8acca6c6e4c7dd7.jpg?logo=Telegram"></a>
+### <a href="https://t.me/Subroz"><img src="https://telegra.ph/file/e29a7b37178dca48b535e.jpg?logo=Telegram"></a>
 
 
 
