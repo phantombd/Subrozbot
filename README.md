@@ -16,7 +16,7 @@ Best User Bot To Manage Your Telegram Account 😉
 Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/Subroz/Subrozbot
-cd Karmabot
+cd Subrozbot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
