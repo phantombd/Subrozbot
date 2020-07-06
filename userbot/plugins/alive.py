@@ -12,7 +12,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba"
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("▒▒▒▒▒▒▐███████▌\n▒▒▒▒▒▒▐░▀░▀░▀░▌\n▒▒▒▒▒▒▐▄▄▄▄▄▄▄▌\n▄▀▀▀█▒▐░▀▀▄▀▀░▌▒█▀▀▀▄\n▌▌▌▌▐▒▄▌░▄▄▄░▐▄▒▌▐▐▐▐\n\n"
-                      "**Apun Jinda Hai Sur, Hukum Kro Mere Aaka ! ! !\n\nTelethon version:- 6.9.0**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**Python: 3.7.3**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
+                      "**Apun Jinda Hai Sur, WHAT ABOUT YOU ! ! !\n\nTelethon version:- 6.9.0**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n**Python: 3.7.3**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                     f"`My Peru Owner`: {DEFAULTUSER}\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                      "**Database Status: Databases functioning normally!**\n◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n\n**Always With You, My Peru Master ! ! !**\n\n"
                     "**BOT CREATOR:-** [SUBRO](@subroz)")
