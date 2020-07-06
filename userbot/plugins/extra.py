@@ -65,13 +65,13 @@ async def _(event):
 #@register(outgoing=True, pattern="^.source$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Karma-goku/KarmaBot")
+        await e.edit("https://github.com/Subroz/Subrozbot")
 
 @borg.on(admin_cmd("readme$"))
 #@register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Karma-goku/KarmaBot/blob/master/README.md")
+        await e.edit("https://github.com/Subroz/Subrozbot/blob/master/README.md")
 
 
 
