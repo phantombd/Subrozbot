@@ -41,9 +41,9 @@ async def _(event):
             "`Connecting To Telegram Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
-            "`Me: Yo this is` @Subroz ,`Please Connect me to my lil bro,Pavel Bahua`",
+            "`Me: Yo this is` @Subroz ,`Please Connect me to my lil bro,Pavel Bhuia`",
             "`User Authorised.`",
-            "`Calling Pavel Durov`  `At +016969696969`",
+            "`Calling Pavel Bhuia`  `At +016969696969`",
             "`Private  Call Connected...`",
             "`Me: Hello Sir, Please Ban This Telegram Account.`",    
             "`Pavel: May I Know Who Is This?`",
@@ -55,7 +55,7 @@ async def _(event):
             "`Pavel: Yes Sur, There Is A Bug In Telegram v69.6.9.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
             "`Me: Send Me The App On My Telegram Account, I Will Fix The Bug & Send You.`",
             "`Pavel: Sure Sur \nTC Bye Bye :)`",
-            "`Private Call Disconnected Bye Pavel😂.`"
+            "`Private Call Disconnected Bye @pavelbhuia😂.`"
         ]
 
     for i in animation_ttl:
