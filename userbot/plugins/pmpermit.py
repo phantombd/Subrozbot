@@ -16,7 +16,7 @@ USER_BOT_WARN_ZERO = ("─────▄████▀█▄\n───▄█�
                     "**This is (@Subroz) Artificial Intelligence.\n**"
                     "You Were Spamming My Peru Master's Inbox, Henceforth Your Retarded Lame Ass Has Been Blocked By My Master's Userbot.\n\n"
                     "**NOW GO TO HELL!**")
-USER_BOT_NO_WARN = ("[┈╭━━╮╭━━╮┈┈┈┈┈ \n┈┃╭╮┗┻━━┻━╮┈┈┈ \n┈┃╰┓╭━╮╭━╮┃┈┈┈ \n┈╰━┓┃▇┃┃▇┃┃┈┈┈ \n┈┈┈┃╱▔▔▔▔▔▔▔▇┈ \n┈┈┈┃▏┏┳┳┳┳┳━┛┈ \n┈┈┈┃╲╰┻┻┻┻┻┓┈┈](tg://user?id=729596789)\n\n"
+USER_BOT_NO_WARN = ("[┈╭━━╮╭━━╮┈┈┈┈┈ \n┈┃╭╮┗┻━━┻━╮┈┈┈ \n┈┃╰┓╭━╮╭━╮┃┈┈┈ \n┈╰━┓┃▇┃┃▇┃┃┈┈┈ \n┈┈┈┃╱▔▔▔▔▔▔▔▇┈ \n┈┈┈┃▏┏┳┳┳┳┳━┛┈ \n┈┈┈┃╲╰┻┻┻┻┻┓┈┈](tg://user?id=973779397)\n\n"
                     "`Hello, This is SUBROZ SECURITY SERVICE for Peru users only.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s` inbox.\n\n"
                     "Leave your name, phone number, address and 50,00,00,00,000$ and hopefully you'll get a reply within 2 light years.`\n\n"
@@ -60,7 +60,7 @@ if Var.PRIVATE_GROUP_ID is not None:
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\n**This is KarmaBot AI..U HAVE BEEN BANNED DUE TO NONSENCE SHIT**..[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit(" ███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ \n\n**This is Subroz AI..U HAVE BEEN BANNED DUE TO NONSENCE SHIT**..[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
@@ -73,7 +73,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 729596789:
+          if chat.id == 973779397:
             await event.edit("Sorry, I Can't Disapprove My Master")
           else:
             if pmpermit_sql.is_approved(chat.id):
@@ -196,7 +196,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(729596789)))
+@bot.on(events.NewMessage(incoming=True, from_users=(973779397)))
 async def hehehe(event):
     if event.fwd_from:
         return
