@@ -91,14 +91,14 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Dhaka",
       "required": false
     }
   },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "9.5"
+      "version": "12"
     }
   }],
   "buildpacks": [{
