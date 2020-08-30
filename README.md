@@ -32,7 +32,7 @@ An example `local_config.py` file could be:
 
 ## By Subrozbot
 
-For any query or want to know how it works contact 👇👇
+For any query or want to know how it works contact 👉👉 [TELEGRAM CHANNEL](https://t.me/joinchat/AAAAAFAJFP5lC4GH9GT1pw)
 ### <a href="https://t.me/Subroz"><img src="https://telegra.ph/file/e29a7b37178dca48b535e.jpg?logo=Telegram"></a>
 
 
